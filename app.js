@@ -1,4 +1,3 @@
-
 	var toDo= {
 		list: [],
 		addToList: function(toDoText) {
