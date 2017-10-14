@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Todo List</title>
+</head>
+<body>
+	<h1> ToDo List </h1>
+	<div class="toDo">
+		<div>
+		<button onclick="handlers.toggleAll()"> Toggle All </button>
+		</div>
+		<div>
+			<input id="addToDoText" type="text" placeholder="What needs to be done?" autofocus/>
+			<button onclick="handlers.addToDo()"> Add </button>
+		</div>
+
+		<ul>
+		</ul>
+		
+		<div>
+			<button onclick="handlers.changeToDo()">Change ToDo</button>
+			<input id="toDoPosition" type="number"/>
+			<input id="newToDoText" type="text"/>
+		</div>
+		<div>
+			<button onclick="handlers.toggleToDo()">Toggle completed</button>
+			<input id="toggleToDoPosition" type="number"/>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
